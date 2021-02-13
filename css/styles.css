@@ -47,6 +47,12 @@ body{
 	padding: 0;
 }
 
+@media screen and (min-width: 700px){
+  .header__title, .suscription__title, .why-us__title{
+    font-size: 1.3rem;
+  }
+}
+
 
 .header{
   height: 267px;
@@ -59,6 +65,7 @@ body{
   .header{
     width: 636px;
     height: 216px;
+    padding: 0 40px;
     grid-column-start: 1;
     grid-column-end: 2;
   }
@@ -75,6 +82,12 @@ body{
 	font-size: 0.9rem;
 	padding: 0;
 	margin: 0 0 26px 0 ;
+}
+
+@media screen and (min-width: 700px){
+  .header__subtitle{
+    font-size: 1rem;
+  }
 }
 
 .header__information{
@@ -95,6 +108,7 @@ body{
   .suscription{
     width: 318px;
     height: 259px;
+    padding: 0 40px;
     border-radius: 0 0 0 5px;
     grid-row-start: 2;
   }
@@ -105,11 +119,11 @@ body{
 }
 
 .suscription__title{
-  margin: 29px 0 21px;
+  margin: 29px 0 17px;
 }
 
 .suscription__information{
-  margin: 15px 0;
+  margin: 15px 0 29px;
   font-size: 0.86rem;
 }
 
@@ -152,6 +166,7 @@ body{
   .why-us{
     width: 318px;
     height: 259px;
+    padding: 0 40px;
     border-radius: 0 0 5px 0;
     grid-row-start: 2;
   }
@@ -170,7 +185,7 @@ body{
 }
 
 .list__item{
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 footer{
